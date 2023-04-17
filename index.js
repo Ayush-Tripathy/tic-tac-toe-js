@@ -238,7 +238,7 @@ function showWinnerLine(winningSequence) {
 
     line.style.visibility = "visible";
 
-    if (winningSequence[0] == 3) {
+    if (winningSequence[0] == 3 && winningSequence[1] == 5) {
         var startingElement = document.getElementById(winningSequence[2] + "");
     } else {
         var startingElement = document.getElementById(winningSequence[0] + "");
